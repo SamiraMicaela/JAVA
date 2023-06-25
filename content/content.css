@@ -1,0 +1,164 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1px black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.list-group-item{
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.section{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section a{
+    display: block;
+    margin-bottom: 10px;
+    color: #007bff;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.section a:hover{
+    color: #0056b3;
+}
+ 
+li{
+    font-size: 18px;
+    justify-content: center;
+}
+
+form input{
+    
+    font-size: 19px;
+    justify-content: center;
+}
+
+ /**/
+
+
+.navbar {
+    background-color: #f7f7f7;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #333;
+}
+
+a .nav-link{
+    color: #fff;
+}
+a .nav-link:hover,
+a .nav-link:focus{
+    background-color: #0056b3;
+    border-color: #0056b3;
+ }
+
+ .nav-item button{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+ .nav-item button:hover,
+ .nav-item button:focus{
+    background-color: #0056b3;
+    border-color: #0056b3
+}
+    
+
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #007bff;
+}
+
+.dropdown-menu {
+    background-color: #fff;
+}
+
+.dropdown-item {
+    color: #333;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #f7f7f7;
+    color: #007bff;
+}
+
+.dropdown-divider {
+    border-top-color: #333;
+}
+
+.form-control {
+    background-color: #fff;
+    color: #333;
+}
+
+.btn-outline-success {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:focus {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s;
+}
+
+/**/ 
+
+
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.task-list li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.task-list li.completed {
+    text-decoration:none;
+    background-color: #e0e0e0;
+}

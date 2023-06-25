@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta</title>
+    <link rel="stylesheet" href="./createAccount.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+</head>
+
+<body>
+    <div id="createAccount">
+        <div class="container">
+            <h1 class="mt-5">Crear una cuenta</h1>
+            <form action="">
+                <div class="form-group"><!--Aca el usuario debe poner su nombre-->
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group"> <!--Aca el usuario debe poner su email-->
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group"> <!--Aca el usuario debe poner su contraseña-->
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>           <!--Y este es el boton para enviar la informacion(que todavia no anda porque no hicimos el js)-->
+                    <button id="myButton" type="submit" class="btn btn-primary">submit</button>
+        
+            </form>
+         </div>   
+         <div class="section">
+            <a href="../login/login.HTML">Inicio de sesión</a>
+         </div>
+    </div>
+    <script type="text/javascript" src="./createAccount.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>
