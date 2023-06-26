@@ -9,9 +9,14 @@ document.getElementById("form").addEventListener("submit", function(event){
     console.log("Email: "+ email);
     console.log("Contraseña: "+ password);
 
+    window.location.href = "../login/login.html?name=" + encodeURIComponent(name) + "&email=" + encodeURIComponent(email);
 });
 
 
 /*este codigo escucha el evento SUBMIT del formulario y captura los valores de los campos NAME, EMAIL, PASSWORD.*/
 /*muestra los datos por  consola */
-/* */
+/*La redireccion se realiza utilizando WINDOW.LOCATION.HREF*/
+/*y pase los valores de NAME y EMAIL como parametros de la URL*/
+/*los pude pasar utilizando el formato "? nombreParametro=valorParametro"*/
+/*utilice ENCODEURICOMPONENT()  para asegurarme de que los valores se codifiquen +*/
+/*correctamente en caso de contener caracteres especiales */
