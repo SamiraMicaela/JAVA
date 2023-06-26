@@ -1,4 +1,4 @@
-/*document.getElementById("myButton").addEventListener("click", function(event){
+document.getElementById("myButton").addEventListener("click", function(event){
     event.preventDefault();
 
     const username= document.getElementById("username").value;
@@ -11,8 +11,8 @@
         alert("Nombre de usuario o contraseña incorrectos");
     }
 } );
-*/
-document.addEventListener("DOMContentLoaded", function(){
+
+/*document.addEventListener("DOMContentLoaded", function(){
     var urlParams = new URLSearchParams(window.location.search);
     var name = urlParams.get("name");
     var email = urlParams.get("email");
@@ -33,4 +33,4 @@ document.addEventListener("DOMContentLoaded", function(){
             alert("Nombre de usuario o contraseña incorrecta.");
         }
     });
-}) ; 
+}) ; */
