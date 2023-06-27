@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./misTareas.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Mis Tareas</title>
 
@@ -48,35 +49,20 @@
         </nav>
     </header>
     <!--<object data="../nav/nav.html" type="text/html" style="height: 50; width: 100%;"></object> -->
-    <div class="container">
+    <div id="task-input" >
         <h1>Mis tareas <3</h1>
-        <form id="todo-form">
-            <input type="text" id="task-input" placeholder="Ingrese una tarea">
-            <button type="submit">Agregar</button>
-        </form>
-        <ul id="task-list" class="task-list">
+            <label for="task">Tarea:</label>
+            <input type="text" id="task" placeholder="Ingrese una tarea">
+            <button id="add-task">Agregar</button>
+        
+        <div id="task-list">
+            <h2>Listado de tareas</h2>
+            <ul id="list">
             
-            <li>
-                <textarea class="form-control" id="task1" rows="3" placeholder="Ingrese la tarea"></textarea>
-                <input type="checkbox">
-                <span>Tarea 1</span>
-                <button class="delete-button">Eliminar</button>
-            </li>
-            <li>
-                <textarea class="form-control" id="task1" rows="3" placeholder="Ingrese la tarea"></textarea>
-                <input type="checkbox">
-                <span>Tarea 2</span>
-                <button class="delete-button">Eliminar</button>
-            </li>
-            <li>
-                <textarea class="form-control" id="task1" rows="3" placeholder="Ingrese la tarea"></textarea>
-                <input type="checkbox">
-                <span>Tarea 3</span>
-                <button class="delete-button">Eliminar</button>
-            </li>
-        </ul>
+            </ul>
+    
     </div>
-
+    <script type="text/javascript" src="./misTareas.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
