@@ -6,7 +6,7 @@ document.getElementById("myButton").addEventListener("click", function(event){
     
     if(username === "usuario" && password === "contraseña"){
         alert("Inicio de sesion exitoso");
-        window.location.href = "../content/content.html";
+        window.location.href = "../contentMisTareas/misTareas.html";
     }else {
         alert("Nombre de usuario o contraseña incorrectos");
     }

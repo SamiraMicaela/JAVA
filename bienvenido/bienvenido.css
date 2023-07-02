@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    padding-top: 60px; /*para evitar que el contenido sesuperponga con el nav*/
     
 }
 
@@ -36,6 +37,13 @@ body{
 .directories a{
     color: #000000;
     text-decoration: none;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 }
 
 /*carrusel*/
