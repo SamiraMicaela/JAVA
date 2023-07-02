@@ -25,6 +25,15 @@ function addTask() {
                               <option value="cancelled">Cancelada</option>
                           </select>`;
 
+    
+
+    var deleteButton = document.createElement("button");
+    deleteButton.textContent = "Eliminar";
+    deleteButton.addEventListener("click", function(){
+        listItem.remove();
+    });
+
+    listItem.appendChild(deleteButton);
     document.getElementById("list").appendChild(listItem);
     taskInput.value = "";
     taskId++;

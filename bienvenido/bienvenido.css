@@ -1,13 +1,17 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: #F7F7F7;
     padding: 20PX;
+    background-image: url("../img/fo.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
 }
 
 .container{
     max-width: 600px;
-    margin: 0 auto;
-    background-color: #fff;
+    margin-bottom: 20px;
+    background-image: url("../img/fo.jpg");
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -24,6 +28,101 @@ body{
 }
 
 .directories{
-    color: #007bff;
+    margin: 20px;
+    background-image: url("../img/fo.jpg");
+    color: #000000;
     text-decoration: none;
+}
+.directories a{
+    color: #000000;
+    text-decoration: none;
+}
+
+/*carrusel*/
+#carouselExampleCaptions{
+    margin-bottom: 20px;
+}
+
+/*navbar*/
+.navbar {
+    background-image: url("../img/naav.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-bottom: 1px solid #92198c;
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    color: #000000;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/*.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill='%23007bff' d='M3 5h10a1 1 0 0 1 0 2H3a1 1 0 0 1 0-2zm0 4h10a1 1 0 0 1 0 2H3a1 1 0 0 1 0-2zm0 4h10a1 1 0 0 1 0 2H3a1 1 0 0 1 0-2z'/%3e%3c/svg%3e");
+}*/
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: #000000;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    color: #000000;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(49, 49, 49, 0.1);
+}
+
+.dropdown-item {
+    color: #000000;
+    font-weight: bold;
+}
+
+.dropdown-divider {
+    border-top-color: #000000;
+}
+
+.form-control {
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #000000;
+}
+
+.btn-outline-success {
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-outline-success:hover {
+    background-color: #000000;
+}
+
+
+.d-flex{
+    color: #000000;
+}
+
+.btn btn-outline-success{
+    color: #000000;
 }
