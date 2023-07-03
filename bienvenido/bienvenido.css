@@ -39,18 +39,18 @@ body{
     text-decoration: none;
 }
 
-header{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-}
-
 /*carrusel*/
 #carouselExampleCaptions{
     margin-bottom: 20px;
 }
 
+
+header{
+    position: fixed;
+    top: 0;
+    width: 97%;
+    z-index: 999;
+}
 /*navbar*/
 .navbar {
     background-image: url("../img/naav.jpg");

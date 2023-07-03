@@ -1,16 +1,25 @@
 document.getElementById("myButton").addEventListener("click", function(event){
     event.preventDefault();
-
-    const username= document.getElementById("username").value;
+   const username= document.getElementById("username").value;
     const password= document.getElementById("password").value;
     
-    if(username === "usuario" && password === "contraseña"){
+    console.log("Datos ingresados: ");
+    console.log("Nonmbre:", username);
+    console.log("Contraseña", password);
+
+})
+
+
+
+
+
+/*    if(username === "usuario" && password === "contraseña"){
         alert("Inicio de sesion exitoso");
         window.location.href = "../contentMisTareas/misTareas.html";
     }else {
         alert("Nombre de usuario o contraseña incorrectos");
     }
-} );
+} );*/
 
 /*document.addEventListener("DOMContentLoaded", function(){
     var urlParams = new URLSearchParams(window.location.search);
